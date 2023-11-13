@@ -4,17 +4,8 @@ using Interface;
 using MODEL;
 public class Program
 {
-    public static void Main(string[] args)
+    public async static void Main(string[] args)
     {
-        
-        
-        
-
-        
-        
-        //Need to figure out correct way to deal with exeptions
-        // use chatgpt to optimize code
-
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
